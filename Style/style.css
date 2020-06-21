@@ -123,6 +123,7 @@ p.card-text{
 
 #about-photo{
 	width: 50%;
+	max-width: 200px;
 }
 
 /* Footer Styling */
