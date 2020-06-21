@@ -168,6 +168,19 @@ p.card-text{
 		margin-top: 60px;
 	}
 
+	/* Restyle About Me */
+	.aboutme-card-deck{
+		width: 80%;
+	}
+
+	.aboutme-card {
+		width: 400px;
+	}
+
+	#aboutme-image{
+		margin: 0rem;
+	}
+
 }
 
 
@@ -202,4 +215,6 @@ p.card-text{
 	textarea.contact-textarea{
 		height: 270px;
 	}
+
+	/* Restyle About Me */
 }
