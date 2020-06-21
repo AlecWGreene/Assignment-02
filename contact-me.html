@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Link to LESS css sheet-->
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <!-- Link CSS stylesheet -->
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a href="index.html" class="navbar-brand">Alec Greene</a>  
+        
+        <!-- Collapsed NavBar Icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-expaned="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>           
+        </button>
+        
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <div class="navbar-nav pb-2">
+                <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                <a href="contact-me.html" class="nav-item nav-link"><span class="active">Contact Me</span></a>
+                <a href="about-me.html" class="nav-item nav-link">About Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Container -->
+    <div class="container-fluid">
+        <div class="card-deck content-card-deck mx-auto">
+            
+            <!-- Contact Me Card -->
+            <div class="card contact-card text-white d-flex flex-column justify-content-start mt-3">
+                
+                <!-- Card Title -->
+                <div class="card-title text-center d-flex flex-column justify-content-center py-4 contact-title"><h3><strong>Contact Me</strong></h3></div>
+                
+                <!-- Contact Form -->
+                <form class="contact-form mx-auto">
+
+                    <!-- Name Field -->
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend w-100">
+                            <span class="input-group-text">Name:</span>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend w-100">
+                            <span class="input-group-text">Email:</span>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend w-100">
+                            <textarea class="form-control contact-textarea" rows="5"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="d-flex flex-row justify-content-end"><button type="button" class="btn btn-danger">Submit</button></div>
+                </form> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Footer -->
+    <footer class="page-footer fixed-bottom">
+        Copyright 2020
+    </footer>
+</body>
+
+<!-- Links JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Links Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- Links page script -->
+<script src="../JavaScript/script.js"></script>
+</html>

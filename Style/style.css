@@ -1,4 +1,11 @@
 /* Navigation Bar Classes */
+.active{
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+	padding-bottom: 5px;
+}
+
 .navbar{
 	background: black;
 	padding: 0px;
@@ -29,16 +36,18 @@
 }
 
 
-/* Card Styling */
+/* Portfolio Card Styling */
 .container-fluid {
 	background-image: linear-gradient(to right, rgb(136, 136, 136),rgb(48, 48, 48),rgb(48, 48, 48),rgb(48, 48, 48),rgb(136, 136, 136));
 	margin-top: 0px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card-deck{
 	max-width: 80%;
 	padding-top: 30px;
 	padding-bottom: 100%;
+	margin-top: 120px;
 	justify-content: center;
 }
 
@@ -74,6 +83,43 @@
 	color:silver;
 }
 
+
+/* Contact Card Styling */
+.contact-card{
+	background: rgb(206, 205, 205);
+	height: 350px;
+	min-width: 280px;
+}
+
+.contact-card-deck {
+	width: 90%;
+}
+
+.contact-form{
+	width: 90%;
+}
+
+.contact-textarea {
+	height: 80px;
+}
+
+.contact-title{
+	border-bottom-width: 5px;
+	border-bottom-color: red;
+	border-bottom-style: solid;
+	margin-bottom: 20px;
+}
+
+/* About Me Card Styling */
+.aboutme-card{
+	background: rgb(206, 205, 205);
+	height: 550px;
+	min-width: 280px;
+}
+
+p.card-text{
+	color: black;
+}
 
 /* Footer Styling */
 .page-footer{
@@ -113,6 +159,10 @@
 		margin-left: auto;
 	}
 
+	.card-deck {
+		margin-top: 60px;
+	}
+
 }
 
 
@@ -135,6 +185,16 @@
 
 	.card {
 		min-width: 250px;
-		min-height: 350px;
+		min-height: 300px;
+		max-width: 400px;
+	}
+
+	/* Restyle Contact Me */
+	.contact-card{
+		height: 500px;
+	}
+
+	textarea.contact-textarea{
+		height: 270px;
 	}
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Link to LESS css sheet-->
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <!-- Link CSS stylesheet -->
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a href="index.html" class="navbar-brand">Alec Greene</a>  
+        
+        <!-- Collapsed NavBar Icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-expaned="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>           
+        </button>
+        
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <div class="navbar-nav pb-2">
+                <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                <a href="contact-me.html" class="nav-item nav-link">Contact Me</a>
+                <a href="about-me.html" class="nav-item nav-link"><span class="active">About Me</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Container -->
+    <div class="container-fluid">
+        <div class="card-deck content-card-deck mx-auto">
+            
+            <!-- About Me Card -->
+            <div class="card aboutme-card text-white d-flex flex-column justify-content-start mt-5">
+                
+                <!-- Card Title -->
+                <div class="card-title text-center d-flex flex-column justify-content-center py-4 contact-title"><h3><strong>About Me</strong></h3></div>
+                
+                <!-- About Me Image -->
+                <img src="./Assets/SiteImages/slackprofile.jpg" class="mx-auto mb-2 border border-dark rounded-circle" alt="Alec Greene">
+
+                <!-- About Me Text -->
+                <p class="card-text px-4" style="text-indent: 40px;">
+                    I am 22 years old, currently learning programming to become a game developer after years of going to university for a theoretical math degree. I am a big video game enthusiast, but also love to play soccer and watch movies. My dream job would be to be a screenwriter for Hollywood. I currently live in Saline, Michigan.
+                <p>    
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Footer -->
+    <footer class="page-footer fixed-bottom">
+        Copyright 2020
+    </footer>
+</body>
+
+<!-- Links JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Links Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- Links page script -->
+<script src="../JavaScript/script.js"></script>
+</html>
