@@ -121,6 +121,10 @@ p.card-text{
 	color: black;
 }
 
+#about-photo{
+	width: 50%;
+}
+
 /* Footer Styling */
 .page-footer{
 	color: white;
