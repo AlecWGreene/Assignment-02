@@ -29,14 +29,34 @@
             <div class="navbar-nav pb-2">
                 <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
                 <a href="contact-me.html" class="nav-item nav-link">Contact Me</a>
-                <a href="about-me.html" class="nav-item nav-link">About Me</a>
+                <a href="index.html" class="nav-item nav-link"><span class="active">About Me</span></a>
             </div>
         </div>
     </nav>
 
     <!-- Page Container -->
     <div class="container-fluid">
-        asf
+        <div class="card-deck content-card-deck mx-auto">
+            
+            <!-- About Me Card -->
+            <div class="card aboutme-card text-white d-flex flex-column justify-content-start mt-5">
+                
+                <!-- Card Title -->
+                <div class="card-title text-center d-flex flex-column justify-content-center py-4 contact-title"><h3><strong>About Me</strong></h3></div>
+                
+
+                   
+                <!-- About Me Image -->
+                <img src="./Assets/SiteImages/slackprofile.jpg" class="mx-auto mb-2 border border-dark rounded-circle img-fluid" alt="Alec Greene" id="aboutme-image">
+                
+                <!-- About Me Text -->
+                <p class="card-text px-2" style="text-indent: 40px;" id="aboutme-text">
+                    I am 22 years old, currently learning programming to become a game developer after years of going to university for a theoretical math degree. I am a big video game enthusiast, 
+                    
+                    but also love to play soccer and watch movies. My dream job would be to be a screenwriter for Hollywood. I currently live in Saline, Michigan.
+                <p>    
+            </div>
+        </div>
     </div>
 
     <!-- Page Footer -->
@@ -45,10 +65,10 @@
     </footer>
 </body>
 
+<!-- These scripts necessary to make collapsing navbar work -->
 <!-- Links JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Links Bootstrap JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<!-- Links page script -->
-<script src="../JavaScript/script.js"></script>
+
 </html>

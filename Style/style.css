@@ -113,7 +113,7 @@
 /* About Me Card Styling */
 .aboutme-card{
 	background: rgb(206, 205, 205);
-	height: 550px;
+	height: 500px;
 	min-width: 280px;
 }
 
@@ -178,7 +178,12 @@ p.card-text{
 	}
 
 	#aboutme-image{
-		margin: 0rem;
+		width: 150px;
+		margin-left: 0px;
+	}
+
+	#aboutme-text{
+		word-wrap: break-word;
 	}
 
 }
@@ -215,6 +220,4 @@ p.card-text{
 	textarea.contact-textarea{
 		height: 270px;
 	}
-
-	/* Restyle About Me */
 }
